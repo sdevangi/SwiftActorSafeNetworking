@@ -2,7 +2,7 @@
 
 A portfolio project demonstrating modern Swift 6 concurrency and an actor-safe networking architecture using SwiftUI.
 
-## Features
+## Key Features
 
 - Swift 6 concurrency and `Sendable` data models
 - Actor-isolated `URLSession` networking client
@@ -38,6 +38,3 @@ Open the project in Xcode, configure Swift 6 language mode, and run it on an iOS
 
 To enable real networking, inject `URLSessionNetworkClient` with the base URL of an API that provides compatible `/users`, `/posts`, and `/products` endpoints.
 
-## Learning Goals
-
-This project demonstrates how to design asynchronous networking code, reason about actor isolation, handle errors and cancellation, and keep SwiftUI state consistent in a concurrent application.
